@@ -5,6 +5,7 @@ public class Task1 {
 
     public static void Tower(int n, String source, String target, String buffer) {
         if (n == 1) {
+
             System.out.printf("%d from %s to %s", n, source, target);
             System.out.println();
             return;
