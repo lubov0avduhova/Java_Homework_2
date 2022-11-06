@@ -8,7 +8,6 @@ public class Task1 {
             System.out.printf("%d from %s to %s", n, source, target);
             System.out.println();
             return;
-
         }
         Tower(n - 1, source, buffer, target);
         System.out.printf("%d from %s to %s", n, source, target);
